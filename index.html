@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Lights & Fans</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Control Lights & Fans</h1>
+
+    <div class="button-container">
+        <button class="btn btn-on" id="toggleFeed1" onclick="toggleFeed('feed1', 1)">Turn ON Feed 1</button>
+        <button class="btn btn-off" id="toggleFeed1Off" onclick="toggleFeed('feed1', 0)">Turn OFF Feed 1</button>
+        <button class="btn btn-on" id="toggleFeed2" onclick="toggleFeed('feed2', 1)">Turn ON Feed 2</button>
+        <button class="btn btn-off" id="toggleFeed2Off" onclick="toggleFeed('feed2', 0)">Turn OFF Feed 2</button>
+        <button class="btn btn-on" id="toggleFeed3" onclick="toggleFeed('feed3', 1)">Turn ON Feed 3</button>
+        <button class="btn btn-off" id="toggleFeed3Off" onclick="toggleFeed('feed3', 0)">Turn OFF Feed 3</button>
+        <button class="btn btn-on" id="toggleFeed4" onclick="toggleFeed('feed4', 1)">Turn ON Feed 4</button>
+        <button class="btn btn-off" id="toggleFeed4Off" onclick="toggleFeed('feed4', 0)">Turn OFF Feed 4</button>
+    </div>
+
+    <div id="status" class="status"></div>
+
+    <footer>
+        <p>Developed by <a href="https://io.adafruit.com/nafij/dashboards/ninja" target="_blank">NAFIJ</a>. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
